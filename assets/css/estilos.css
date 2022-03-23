@@ -91,15 +91,14 @@
 	  height: 500px;
   }
   .swiper img{
-	  padding-left: 1px;
-	  width: 70%;
+	 
   }
 
   .swiper-slide h3{
-	margin-top: 200px;
-	margin-right: 20px;
+	margin-top: 130px;
+	margin-right: 55px;
 	font-size: 20px;  
-
+	margin-left: 1px;
   }
 
   .bantxt{
@@ -123,3 +122,143 @@
 	bottom:20px;
 	right:20px;
   }
+
+
+  nav {
+	
+	padding-right: 100px;
+  }
+  
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+    
+nav ul li a {
+	display: block;
+	color: rgb(2, 2, 2);
+	text-decoration: none;
+	
+}
+nav ul li a:hover{
+	color: white;
+	text-decoration: none;
+}
+nav ul li:hover {
+	
+	background: hsla(206, 80%, 45%, 0.263);
+	background-color: rgba(28, 97, 162, 0.393);
+}
+
+ 
+.form{
+	background-image: url(../img/images\ \(1\).jpg);
+	padding-left: 100px;
+	width: 100%;
+	height: 670px;
+}  
+
+
+.formulario h1{
+	font-size: 39px;  
+	text-align: left; 
+	padding-bottom: 10px; 
+	color: #000000;
+  }
+  
+  
+  .formulario h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+  }
+  
+  
+  .formulario p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+	color: #1100ff;
+   }
+   
+   
+   ::-webkit-textarea-placeholder {
+	color: #1100ff;
+   }
+   
+   
+   .formulario input:focus{
+	 outline:0;
+	 border: 1px solid #1100ff;
+   }
+   
+   
+   .formulario textarea:focus{
+	 outline:0;
+	 border: 1px solid #1100ff;
+   }
+   .contact_form{  
+	 width: 340px; 
+	 height: auto;
+	 margin: 80px auto;
+	 border-radius: 80px;
+	 border: #1100ff;  
+	 padding-top: 50px;
+	 padding-bottom: 20px;  
+	 background-color: #4c738cad; 
+	 padding-left: 30px; 
+	 margin-left: 140px;
+   }
+  
+  input{
+	background-color: #fbfbfb; 
+	width: 250px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ff957d; 
+	margin-top: 10px;  
+	padding-left: 10px;
+	margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+	background-color: #fbfbfb; 
+	width: 260px; 
+	height: 50px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	margin-top: 10px;  
+	padding-left: 10px;
+	margin-bottom: 10px; 
+	padding-top: 15px; 
+  }
+  
+  
+  label{
+	display: block; 
+	float: center;  
+  }
+  
+  
+  button{
+	height: 35px; 
+	padding-left: 5px;
+	padding-right: 5px;   
+	margin-bottom: 20px; 
+	margin-top: 10px;   
+	text-transform: uppercase;
+	background-color: #647ffa; 
+	border-color: #1100ff; 
+	border-style: solid; 
+	border-radius: 10px;    
+	cursor: pointer;
+	text-align: center;
+  }
+   

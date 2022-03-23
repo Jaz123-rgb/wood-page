@@ -9,10 +9,6 @@ body {
     width: 100%;
     height: 100%;
   }
-  header ul{
-    border: 2px solid black;
-    background-color:rgb(255, 255, 247) ;
-  }
 
   header a{
     text-align: center;
@@ -25,14 +21,12 @@ body {
   header li{
     display:inline-block;
     width:110px;
-    height: 60px;
+    height: 30px;
     padding: 5px 10px;
-    margin-right: 40px;
-
+    margin-right: 70px;
+    vertical-align: bottom;
     text-align:center;
-    color:rgb(0, 0, 0);
-    margin-block-start: 25px;
-     
+    color:rgb(0, 0, 0);   
   }
 
   header li:hover{
@@ -60,7 +54,7 @@ body {
 
   main {
     width: 100%;
-    height: 1840px;
+    height: 2600px;
     background-color: rgb(121, 108, 51);
   }
   
@@ -68,12 +62,12 @@ body {
   .slide-container{ 
      width: 100%; 
      height: 600px;
-    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.475);
   }
   
   .catalog-section{ 
     width: 100%; 
-    height: 290px;
+    height: 900px;
    background-color: rgb(43, 151, 10);
   }
   .first-product{

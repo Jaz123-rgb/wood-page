@@ -42,7 +42,7 @@
               <div class="swiper-slide" role="group" aria-label="1 / 9" style="width: 100%; margin-right: 1px;">
                 <img src="assets/img/Design-4.png" alt="pd101" height="500px">
                 <div class="bantxt">
-                  <h3>Muebles en optimas<br><span>condiciones</span></h3>
+                  <h3>Muebles en optimas condiciones</h3>
                   <a href="promociones.html"><button>Promociones</button></a>
                 </div>
 
@@ -108,8 +108,37 @@
       </div>
 
     </section>
-    <section class="catalog-section">
-
+    <section class="form">
+        <div class="animated animate__fadeInLeft" style="margin: 50px; text-align: center;">
+			<section class="form">
+				<div class="animated animate__bounce" style="margin: center; ">
+					<div class='contact_form'>
+						<div class='formulario'>
+							<h1 style="margin: auto; padding-left: 10px;padding-right: 9px;background-color: lightblue;border-radius: 20px;float: left;">CONTACTANOS </h1>
+							<h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+							<form method='post' action='submeter-formulario.php' >       
+								<p>
+									<label for='nombre' class='colocar_nombre'><span class='obligatorio'></span></label><input type='text' name="nombre" required="obligatorio" placeholder='Escribe tu nombre*'></p>
+								<p>
+									<label for='email' class='colocar_email'><span class='obligatorio'></span></label><input type='email' name="email" required="obligatorio" placeholder='Escribe tu Email*'></p>
+								<p>
+									<label for='telefono' class='colocar_telefono'></label><input type='tel' name="telefono" required="obligatorio" placeholder='Escribe tu teléfono*'></p>
+								
+								<p>
+									<label for='asunto' class='colocar_asunto'><span class='obligatorio'></span></label><input type='text' name="asunto" required="obligatorio" placeholder='Escribe un asunto*'></p>    
+								<p>
+									<label for='mensaje' class='colocar_mensaje'><span class='obligatorio'></span></label><textarea name="mensaje" placeholder='Deja aquí tu comentario...'></textarea> </p>
+								<button type='submit' name='enviar_formulario' id='enviar' value="enviar formulario">
+									<p>Enviar</p>
+								</button>
+								<p class='aviso'><span class='obligatorio'> * </span>los campos son obligatorios.
+								</p>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+        </div>
     </section>
     <section class="first-product">
 
