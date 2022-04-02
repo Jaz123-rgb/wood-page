@@ -18,7 +18,7 @@ button{
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    background-color: #24252A;
+    background-color: #DFDFDE;
   }
   .logo{
     cursor: pointer;
@@ -46,9 +46,9 @@ button{
   }
   .nav-links li a{
     transition: all 0.3s ease 0s;   
-    color: #edf0f1;
+    color: #212121;
     font-family: 'Montserrat', sans-serif;
-   font-weight: 500;
+   font-weight: 600;
    font-size: 30px;
    text-decoration: none;
     
@@ -196,6 +196,7 @@ button{
 }
 .content1 span{
   font-size: 20px;
+  
 }
 
   /*Catalogo*/
@@ -233,6 +234,7 @@ button{
     background-size: cover;
     background-position: center center;
     width: calc(33.33%-28px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
   }
   
   .card .textos {
@@ -247,19 +249,27 @@ button{
     padding: 20px;
     background-size: cover;
     background-position: center center;
-    background-image: url('./assets/img/Des-4.jpg');
+    background-image: url('./assets/img/fondo-2.jpg');
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.548);
+    
   }
   .backlife h3{
     padding-top: 50px;
-    font-size: 60px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    
   }
   .backlife ul {
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    
+
   }
   
   .backlife ul li {
     margin: 15px;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .backlife .boton {
